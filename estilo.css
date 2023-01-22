@@ -1,0 +1,126 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color:#dadfe1;
+}
+
+.container {
+    width: 27%;
+    max-width: 920px;
+    min-width: 720px;
+    border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+    margin-bottom: 2em;
+  
+}
+.container h1 {
+    color: #2e3e4e;
+    text-align: center;
+    padding: 0.8em;
+}
+
+.container .cabecalho {
+    width: 100%;
+    text-align: center;
+    border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+    background-color: #2e3e4e;
+}
+
+.cabecalho h2 {
+    color: #fff;
+    font-size: 1.25em;
+    line-height: 2.30em;
+}
+
+.formulario {
+    padding: 1em 4em;
+    background-color: #fefefe;
+    border-left: solid 1px #a7a8ac;
+    border-right: solid 1px #a7a8ac;
+}
+
+
+.formulario label {
+    color: #2e3e4e;
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 0.2em;
+}
+
+.formulario input,
+.formulario select {
+    width: 100%;
+    height: 2.90em;
+    border: solid 1px #b0b8c6;
+    border-radius: 0.3em;
+    margin-bottom:  1em;
+
+}
+
+.formulario input::placeholder,
+.formulario select {
+    color: #a7a8ac;
+    text-indent: 0.9em;
+}
+
+.formulario input[type="radio"] {
+    width: 1em;
+}
+
+label.radio {
+    font-size: 0.7em;
+    font-weight: none;
+    margin-bottom: none;
+}
+
+.formulario legend,
+.endereco {
+    color: #2e3e4e;
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 0.2em;
+}
+
+legend.endereco {
+    color: #5b6875;
+    margin-top: 2em;
+}
+
+.linha {
+    height: 0.3px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #b0b8c6;
+}
+
+.espaco-cadastro {
+    text-align: center;
+    padding: 0.8em 4em;
+    border-left: solid 1px #a7a8ac;
+    border-right: solid 1px #a7a8ac;
+    border-bottom: solid 1px #a7a8ac;
+    background-color: #ecf0f1;
+}
+
+.espaco-cadastro input[type="submit"] {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 0.9em;
+    padding: 0.8em;
+    border-radius: 0.3em;
+    border: none;
+    cursor: pointer;
+    background-color: #2e3e4e;
+}
+
+
+
+
+
+

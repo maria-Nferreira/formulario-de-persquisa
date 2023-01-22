@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="author" content="Maria Ferreira">
+    <title>Cadastro social</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>  
+    <div class="container">
+        <h1>Cadastro social</h1>
+       <div class="cabecalho">
+            <h2>Preencha com suas informações pessoais</h2>
+       </div>
+
+       <div class="formulario">
+            <form autocomplete="off">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome completo">
+
+                <label for="cpf">CPF</label>
+                <input class="cpf" type="text" name="cpf" id="cpf" placeholder="000.000.000.00">
+
+                <label for="data">Data de nascimento</label>
+                <input type="date" name="data" id="data">
+                
+                <label for="estado-civil">Estado Civil</label>
+                <select name="estado-civil" id="estado-civil">
+                    <option>Solteiro(a)</option>
+                    <option>Casado(a)</option>
+                    <option>Solteiro(a)</option>
+                </select>
+
+
+                <legend>Sexo</legend>
+                <label class="radio">
+                    <input  type="radio" name="sexo" id="masculino">Masculino
+                </label>
+            
+                <label class="radio">
+                    <input type="radio" name="sexo" id="feminino">Feminino
+                </label>
+
+                <label for="renda">Renda Mensal</label>
+                <input type="text" name="renda" id="renda" placeholder="0.00">
+
+                <legend class="endereco">Endereço</legend>
+
+                <div class="linha"></div>
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option>Acre (AC)</option>
+                    <option>Alagoas (AL)</option>
+                    <option>Amapá(AP)</option>
+                </select>
+
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade" placeholder="Cidade">
+
+                <label for="numero">Número</label>
+                <input type="text" name="numero" id="numero" placeholder="Nº">
+
+                <label for="complemento">Complemento</label>
+                <input type="text" name="complemento" id="complemento" placeholder="Complemento">
+            </form>   
+       </div>
+
+       <div class="espaco-cadastro">
+            <input type="submit" value="Cadastrar">
+       </div>
+    </div>
+    
+</body> 
+</html>
